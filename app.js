@@ -9,7 +9,9 @@ var cors = require('cors');
 const walmartRouter = require('./components/walmart/walmart_router');
 var app = express();
 
-if (process.env.NODE_ENV === 'developement') {
+const env = process.env.NODE_ENV || 'development';
+
+if (env === 'development') {
 	app.use(cors());
 }
 
