@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "node ./bin/www",
 		"heroku-postbuild": "npm install && cd client && npm install --only-dev && npm install && npm run build && npm install workbox-cli -g && workbox injectManifest",
-		"dev": "SET PORT=3001 && nodemon ./bin/www",
+		"dev": "SET PORT=3002 && nodemon ./bin/www",
 		"git": "cd client && git add . && git commit -m 'script' && git push origin master && cd .. && git add . && git commit -m 'script' && git push origin master"
 	},
 	"dependencies": {
