@@ -9,7 +9,7 @@
 		"git": "cd client && git add . && git commit -m 'script' && git push origin master && cd .. && git add . && git commit -m 'script' && git push origin master"
 	},
 	"dependencies": {
-		"axios": "^0.18.0",
+		"axios": "^0.21.1",
 		"cookie-parser": "~1.4.3",
 		"cors": "^2.8.5",
 		"debug": "~2.6.9",
